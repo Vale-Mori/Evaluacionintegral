@@ -1,0 +1,50 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+  margin-right: 8px;
+}
+
+h3, h4 {
+  color: #0d6efd;
+}
+
+footer a img {
+  margin: 0 5px;
+  filter: brightness(0) invert(1);
+}
+
+.card-title {
+  color: #dc3545;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #0d6efd;
+  color: white;
+}
+
+.table thead {
+  background-color: #212529;
+  color: white;
+}
+
+.carousel-item img {
+  max-height: 300px;
+  object-fit: cover;
+}
+.social-icons a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: white;
+  transition: color 0.3s ease;
+}
+
+.social-icons a:hover {
+  color: #ffc107;
+}
+
+.social-icons i {
+  vertical-align: middle;
+}
